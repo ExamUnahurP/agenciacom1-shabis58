@@ -19,40 +19,9 @@ class Cordinador {
     const añosDeExperiencia
     const viajesRealizados
     method cambiarRolActual(nuevoRol){
-        if(nuevoRol != ""){
-            trowException
+        if(nuevoRol != ){
+            self.throwsExceptionWithMessage()
         }
+        rolActual = nuevoRol
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
