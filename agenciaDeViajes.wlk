@@ -5,27 +5,27 @@ class Pack {
 }
 
 class PackInternacional inherits Pack {
-    const actividadesIncluidas = #{}
-    method provinciaDestino() =
+    const actividadesIncluidas 
+    method provinciaDestino() 
 }
 
-class PackNacional inherits Pack{
+class PackNacional inherits Pack {
     const property escalas 
     const property paisDestino 
 }
-/*
+
 class Cordinador {
     var property rolActual
     const añosDeExperiencia
     const viajesRealizados
     method cambiarRolActual(nuevoRol){
-        if(nuevoRol != ){
+        if(nuevoRol != "guia"){
             self.throwsExceptionWithMessage("rol invalido")
         }
         rolActual = nuevoRol
     }
 }
-*/
+
 
 
 
