@@ -14,15 +14,13 @@ object packNacional inherits Pack() {
     method paisDestino() =
 }
 
-class cordinador {
-    var rolActual =
-    method añosDeExperiencia() =
-    method viajesRealizados() =
+class Cordinador {
+    var property rolActual
+    const añosDeExperiencia
+    const viajesRealizados
 }
 
-object beneficiosOpcionales {
-    
-}
+
 
 
 
