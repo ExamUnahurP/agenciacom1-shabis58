@@ -1,17 +1,17 @@
 class Pack {
-    const precio =
-    const duracionDias =
-    const cordinadorACargo =
+    const precioBase 
+    const duracionDias 
+    const cordinadorACargo 
 }
 
 object packInternacional inherits Pack() {
     const actividadesIncluidas = #{}
-    method provinciaDestino() =
+    method provinciaDestino() 
 }
 
-object packNacional inherits Pack() {
-    const escalas =
-    method paisDestino() =
+class PackNacional inherits Pack() {
+    const escalas 
+    const paisDestino
 }
 
 class Cordinador {

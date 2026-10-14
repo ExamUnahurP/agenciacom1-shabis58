@@ -1,5 +1,8 @@
-import agenciaDeViajes. *
 
-describe "CalcularValorFinal" {
-    test 
+
+describe "Calcular Valor Final" {
+    test "Pack nacional sin beneficios vigentes devuelve mismo precio base"{
+        const packItalia = new PackNacional(precioBase = 200, duracionDias = 3, cordinadorACargo = "cris", escalas = 1, paisDestino = "italia")
+        assert.equals(packItalia.precioBase() = )
+    }
 }
