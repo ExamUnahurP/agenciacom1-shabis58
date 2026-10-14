@@ -1,7 +1,7 @@
 class Pack {
-    method precio() =
-    method duracionDias() =
-    method cordinadorACargo() =
+    const precio =
+    const duracionDias =
+    const cordinadorACargo =
 }
 
 object packInternacional inherits Pack {
