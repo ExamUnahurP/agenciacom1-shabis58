@@ -20,8 +20,17 @@ class Cordinador {
     const viajesRealizados
     method cambiarRolActual(nuevoRol){
         if(nuevoRol != ){
-            self.throwsExceptionWithMessage()
+            self.throwsExceptionWithMessage("rol invalido")
         }
         rolActual = nuevoRol
     }
 }
+
+
+
+
+
+
+
+
+
