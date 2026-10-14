@@ -18,6 +18,11 @@ class Cordinador {
     var property rolActual
     const añosDeExperiencia
     const viajesRealizados
+    method cambiarRolActual(nuevoRol){
+        if(nuevoRol != ""){
+            trowException
+        }
+    }
 }
 
 
