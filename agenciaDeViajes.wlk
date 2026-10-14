@@ -1,7 +1,7 @@
 class Pack {
-    const precioBase 
-    const duracionDias 
-    const cordinadorACargo 
+    const property precioBase 
+    const property duracionDias 
+    const property cordinadorACargo 
 }
 
 class PackInternacional inherits Pack {
@@ -9,9 +9,9 @@ class PackInternacional inherits Pack {
     method provinciaDestino() 
 }
 
-class PackNacional inherits Pack {
-    const escalas 
-    const paisDestino
+class PackNacional {
+    var property escalas 
+    var property paisDestino
 }
 /*
 class Cordinador {
