@@ -4,13 +4,14 @@ class Pack {
     const cordinadorACargo =
 }
 
-object packInternacional inherits Pack {
+object packInternacional inherits Pack() {
+    const actividadesIncluidas = #{}
     method provinciaDestino() =
-    const = #{}
 }
 
-object packNacional inherits Pack {
-    method
+object packNacional inherits Pack() {
+    const escalas =
+    method paisDestino() =
 }
 
 class cordinador {
