@@ -4,16 +4,16 @@ class Pack {
     const cordinadorACargo 
 }
 
-object packInternacional inherits Pack() {
+class PackInternacional inherits Pack {
     const actividadesIncluidas = #{}
     method provinciaDestino() 
 }
 
-class PackNacional inherits Pack() {
+class PackNacional inherits Pack {
     const escalas 
     const paisDestino
 }
-
+/*
 class Cordinador {
     var property rolActual
     const añosDeExperiencia
@@ -25,7 +25,7 @@ class Cordinador {
         rolActual = nuevoRol
     }
 }
-
+*/
 
 
 
