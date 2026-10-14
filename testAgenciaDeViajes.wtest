@@ -1,7 +1,8 @@
 describe "Calcular Valor Final" {
-    const packItalia = new PackNacional(escalas = 1, paisDestino = 3)
-    method initialize
+    method initialize(){
+    const packItalia = new PackNacional(duracionDias = 3,cordinadorACargo = "cris", precioBase = 200, escalas = 1, paisDestino = 3)
+    }
     test "Pack nacional sin beneficios vigentes devuelve mismo precio base"{
-        assert.equals(1, packItalia.escalas())
+    assert.equals(packItalia.escalas(), 1)
     }
 }

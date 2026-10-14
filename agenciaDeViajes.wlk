@@ -6,12 +6,12 @@ class Pack {
 
 class PackInternacional inherits Pack {
     const actividadesIncluidas = #{}
-    method provinciaDestino() 
+    method provinciaDestino() =
 }
 
-class PackNacional {
-    var property escalas 
-    var property paisDestino
+class PackNacional inherits Pack{
+    const property escalas 
+    const property paisDestino 
 }
 /*
 class Cordinador {
