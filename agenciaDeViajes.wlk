@@ -7,6 +7,7 @@ class Pack {
 class PackInternacional inherits Pack {
     const actividadesIncluidas 
     method provinciaDestino() 
+    method calcularPrecioConTarifa()
 }
 
 class PackNacional inherits Pack {
@@ -25,6 +26,14 @@ class Cordinador {
         rolActual = nuevoRol
     }
 }
+
+class BeneficiosEspeciales {
+    const property precio
+    method estaVigente()
+    method nombre()
+}
+
+
 
 
 
