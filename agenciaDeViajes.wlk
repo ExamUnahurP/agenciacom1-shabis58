@@ -19,4 +19,36 @@ class cordinador {
     method viajesRealizados() =
 }
 
+object beneficiosOpcionales {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
